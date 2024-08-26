@@ -7,7 +7,7 @@ function Home() {
 
     const [userSearchInput, setUserSearchInput] = useState()
     return (
-        <div className='w-full bg-gray-100'>
+        <div className='w-full bg-gray-100 h-[90%] overflow-auto'>
             <SearchSection onSearchInput={(value) => setUserSearchInput(value)} />
             <TemplateListSection userSearchInput={userSearchInput} />
         </div>

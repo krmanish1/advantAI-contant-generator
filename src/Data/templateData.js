@@ -1,5 +1,23 @@
 const template = [
     {
+        name: 'Email Template',
+        desc: 'An AI tool that Generate the email template based on yor information.',
+        category: 'email',
+        icon: 'https://cdn-icons-png.flaticon.com/128/3296/3296464.png',
+        aiPrompt: 'Generate an email template based on the outline and give me result in Rich text editor format and also explain the email what is important and what is least important.',
+        slug: 'generate-email-template',
+        form: [
+
+            {
+                label: 'Provide the outline for your email',
+                field: 'textarea',
+                name: 'outline',
+                require: true
+
+            },
+        ]
+    },
+    {
         name: 'Youtube Videos Ideas',
         desc: 'An AI tool that will provide Video ideas on any topic.',
         category: 'youtub-vodeos',

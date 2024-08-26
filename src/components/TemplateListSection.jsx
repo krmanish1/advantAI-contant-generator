@@ -18,7 +18,7 @@ function TemplateListSection({ userSearchInput }) {
     }, [userSearchInput])
 
     return (
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8 gap-8'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8 gap-8 '>
             {
                 templateList.map((item, index) => {
                     return <TemplateCard {...item} key={index} />
